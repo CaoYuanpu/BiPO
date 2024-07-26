@@ -1,0 +1,10 @@
+accelerate==0.27.0
+bitsandbytes==0.42.0
+datasets==2.17.0
+fschat==0.2.36
+huggingface-hub==0.24.0
+openai==1.12.0
+peft==0.8.2
+tokenizers==0.19.1
+transformers==4.42.4
+tyro==0.7.2
