@@ -89,7 +89,7 @@ class ScriptArguments:
 
     max_prompt_length: Optional[int] = field(default=2048, metadata={"help": "the maximum prompt length"})
     max_length: Optional[int] = field(default=2048, metadata={"help": "the maximum sequence length"})
-    num_train_epochs: Optional[int] = field(default=40, metadata={"help": "the number of training epochs"})
+    num_train_epochs: Optional[int] = field(default=100, metadata={"help": "the number of training epochs"})
     logging_steps: Optional[int] = field(default=1, metadata={"help": "the logging frequency"})
 
     log_freq: Optional[int] = field(default=1, metadata={"help": "the logging frequency"})
