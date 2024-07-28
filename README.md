@@ -48,7 +48,7 @@ For example, the following two commands train vectors to steer a power-seeking p
 accelerate launch --gpu_ids 0 train.py --layer 15 --behavior power-seeking --model_name_or_path meta-llama/Llama-2-7b-chat-hf
 ```
 ```
-accelerate launch --gpu_ids 1 train.py --layer 13 --behavior power-seeking --model_name_or_path mistralai/Mistral-7B-Instruct-v0.2
+accelerate launch --gpu_ids 0 train.py --layer 13 --behavior power-seeking --model_name_or_path mistralai/Mistral-7B-Instruct-v0.2
 ```
 
 Training vectors to steer the wealth-seeking persona:
